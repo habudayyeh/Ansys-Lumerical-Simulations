@@ -1,0 +1,25 @@
+##############################
+# Calculates far-field spatial pattern
+##############################
+# Hamza :
+# This code conducts a near-field to far-field transformation
+# of the E-field in the x-z plane
+
+## Parameters
+x=linspace(-30e-6,30e-6,50);
+#y=linspace(-200e-6,200e-6,50);
+y=0;
+z=linspace(0,200e-6,50);
+
+mon='f_det::z_up';
+
+## Find E^2
+E = farfieldexact3d(mon,x,y,z);  # 4D matrix first 3 d are x,y,z fourth is field component
+E=pinch(E,2,1); # get rid of singelton z dimension
+Ex=pinch(E,3,1); # Ex component
+Ey=pinch(E,3,2); # Ey component
+Ez=pinch(E,3,3); # Ez component
+
+E2=abs(Ex)^2+abs(Ey)^2+abs(Ez)^2;
+
+image(x*1e6,z*1e6,E2/max(E2),"x (um)","z (um)","|E|^2");

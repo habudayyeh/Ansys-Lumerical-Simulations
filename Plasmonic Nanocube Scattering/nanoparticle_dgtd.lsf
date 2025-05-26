@@ -1,0 +1,42 @@
+# plot far field without nanoparticle
+switchtolayout;
+setnamed("post","enabled",0);
+run;
+
+E_near = getresult("DGTD::R","fields");
+visualize(E_near);
+surf = createsphericalsurface([0,pi/2],[0,2*pi],[0,0,1],1,0.05);
+E_far = near2far(E_near,surf);
+
+x = surf.x;
+y = surf.y;
+z = surf.z;
+ele = surf.elements;
+E = E_far.E;
+sE = size(E);
+Ne = sE(1);
+E2 = abs(E(1:Ne,1))^2+abs(E(1:Ne,2))^2+abs(E(1:Ne,3))^2;
+E_far.addattribute("E2",E2);
+visualize(E_far);
+
+# plot far field with nanoparticle
+switchtolayout;
+setnamed("post","enabled",1);
+setnamed("post","y span",0.2e-6);
+run;
+
+E_near = getresult("DGTD::R","fields");
+visualize(E_near);
+surf = createsphericalsurface([0,pi/2],[0,2*pi],[0,0,1],1,0.05);
+E_far = near2far(E_near,surf);
+
+x = surf.x;
+y = surf.y;
+z = surf.z;
+ele = surf.elements;
+E = E_far.E;
+sE = size(E);
+Ne = sE(1);
+E2 = abs(E(1:Ne,1))^2+abs(E(1:Ne,2))^2+abs(E(1:Ne,3))^2;
+E_far.addattribute("E2",E2);
+visualize(E_far);

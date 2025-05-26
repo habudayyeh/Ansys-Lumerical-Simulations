@@ -1,0 +1,132 @@
+Ansys Lumerical 2023 R2.3 DGTD Solver Version 7.12.3578 (Windows 64bit)
+ expires (month/day/year): 4/5/2024
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@localhost
+current time: Tue Nov 28 15:15:54 2023
+Running on host: CNS-R-RLM895734
+Running ldev file: C:\Program Files\Lumerical\v232\bin\dgtd-engine-msmpi.exe C:/Users/lilab/Box/Li_Group/StudentProjects/Nanocube/Simulations/Nanocube Scattering/nanoparticle_dgtd.ldev -remote -shared-solve-license QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT08QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT48SUQ+NmMyOWQ2NjQtYjQzOS00OTVlLWJmYjUtZDYyMjYyMDM2ZWM3PC9JRD48VFlQRT5BUFBfREVGSU5FRDwvVFlQRT48TkFNRT5sdW1fc3RhbmRhcmRfc29sdmVfc2hhcmU8L05BTUU+PEhBTkRMRVI+NTAwMjZAQ05TLVItUkxNODk1NzM0PC9IQU5ETEVSPjwvQU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT4K
+  ...C:/Users/lilab/Box/Li_Group/StudentProjects/Nanocube/Simulations/Nanocube Scattering/nanoparticle_dgtd.ldev loaded
+Remote execution (remote argument) set to true.
+Generating mesh.
+Mesh generation complete (8s)
+  + vertices: 5324
+  + elements: 26267
+All processes are communicating and ready to proceed to simulation...
+Starting solver.
+Requested number of threads: 8
+Using datatype: real32
+Loading mesh ...
+Adding materials ...
+Adding physics modules ...
+Adding monitors ...
+Initializing physics modules ...
+Setting initial conditions ...
+Finding largest stable timestep (dt_initial=0.00061388) ... done: dt=0.00113261 (took 96.7417 seconds)
+Starting timestepping ...
+  Simulation 1% complete. Max time remaining: 2 hours, 22 mins. Auto Shutoff: 1.00000e+00
+  Simulation 2% complete. Max time remaining: 2 hours, 20 mins. Auto Shutoff: 1.00000e+00
+  Simulation 3% complete. Max time remaining: 2 hours, 19 mins. Auto Shutoff: 1.00000e+00
+  Simulation 4% complete. Max time remaining: 2 hours, 17 mins. Auto Shutoff: 1.00000e+00
+  Simulation 5% complete. Max time remaining: 2 hours, 16 mins. Auto Shutoff: 1.00000e+00
+  Simulation 6% complete. Max time remaining: 2 hours, 14 mins. Auto Shutoff: 1.00000e+00
+  Simulation 7% complete. Max time remaining: 2 hours, 13 mins. Auto Shutoff: 1.00000e+00
+  Simulation 8% complete. Max time remaining: 2 hours, 12 mins. Auto Shutoff: 1.00000e+00
+  Simulation 9% complete. Max time remaining: 2 hours, 10 mins. Auto Shutoff: 1.00000e+00
+  Simulation 10% complete. Max time remaining: 2 hours, 9 mins. Auto Shutoff: 1.00000e+00
+  Simulation 11% complete. Max time remaining: 2 hours, 7 mins. Auto Shutoff: 1.00000e+00
+  Simulation 12% complete. Max time remaining: 2 hours, 6 mins. Auto Shutoff: 9.83019e-01
+  Simulation 13% complete. Max time remaining: 2 hours, 4 mins. Auto Shutoff: 9.49584e-01
+  Simulation 14% complete. Max time remaining: 2 hours, 3 mins. Auto Shutoff: 7.82511e-01
+  Simulation 15% complete. Max time remaining: 2 hours, 1 min. Auto Shutoff: 5.71707e-01
+  Simulation 16% complete. Max time remaining: 2 hours, 0 min. Auto Shutoff: 3.86379e-01
+  Simulation 17% complete. Max time remaining: 1 hour, 59 mins. Auto Shutoff: 2.17057e-01
+  Simulation 18% complete. Max time remaining: 1 hour, 57 mins. Auto Shutoff: 1.20852e-01
+  Simulation 19% complete. Max time remaining: 1 hour, 56 mins. Auto Shutoff: 7.88754e-02
+  Simulation 20% complete. Max time remaining: 1 hour, 54 mins. Auto Shutoff: 5.48576e-02
+  Simulation 21% complete. Max time remaining: 1 hour, 53 mins. Auto Shutoff: 3.91180e-02
+  Simulation 22% complete. Max time remaining: 1 hour, 51 mins. Auto Shutoff: 2.77859e-02
+  Simulation 23% complete. Max time remaining: 1 hour, 50 mins. Auto Shutoff: 2.08308e-02
+  Simulation 24% complete. Max time remaining: 1 hour, 48 mins. Auto Shutoff: 1.52339e-02
+  Simulation 25% complete. Max time remaining: 1 hour, 47 mins. Auto Shutoff: 1.18886e-02
+  Simulation 26% complete. Max time remaining: 1 hour, 46 mins. Auto Shutoff: 9.35929e-03
+  Simulation 27% complete. Max time remaining: 1 hour, 44 mins. Auto Shutoff: 7.23272e-03
+  Simulation 28% complete. Max time remaining: 1 hour, 43 mins. Auto Shutoff: 5.66985e-03
+  Simulation 29% complete. Max time remaining: 1 hour, 41 mins. Auto Shutoff: 4.31651e-03
+  Simulation 30% complete. Max time remaining: 1 hour, 40 mins. Auto Shutoff: 3.45186e-03
+  Simulation 31% complete. Max time remaining: 1 hour, 38 mins. Auto Shutoff: 2.65274e-03
+  Simulation 32% complete. Max time remaining: 1 hour, 37 mins. Auto Shutoff: 2.18070e-03
+  Simulation 33% complete. Max time remaining: 1 hour, 35 mins. Auto Shutoff: 1.70741e-03
+  Simulation 34% complete. Max time remaining: 1 hour, 34 mins. Auto Shutoff: 1.38485e-03
+  Simulation 35% complete. Max time remaining: 1 hour, 33 mins. Auto Shutoff: 1.11449e-03
+  Simulation 36% complete. Max time remaining: 1 hour, 31 mins. Auto Shutoff: 9.01603e-04
+  Simulation 37% complete. Max time remaining: 1 hour, 30 mins. Auto Shutoff: 7.48286e-04
+  Simulation 38% complete. Max time remaining: 1 hour, 28 mins. Auto Shutoff: 6.06798e-04
+  Simulation 39% complete. Max time remaining: 1 hour, 27 mins. Auto Shutoff: 5.15778e-04
+  Simulation 40% complete. Max time remaining: 1 hour, 25 mins. Auto Shutoff: 4.22569e-04
+  Simulation 41% complete. Max time remaining: 1 hour, 24 mins. Auto Shutoff: 3.68136e-04
+  Simulation 42% complete. Max time remaining: 1 hour, 23 mins. Auto Shutoff: 3.07855e-04
+  Simulation 43% complete. Max time remaining: 1 hour, 21 mins. Auto Shutoff: 2.68899e-04
+  Simulation 44% complete. Max time remaining: 1 hour, 20 mins. Auto Shutoff: 2.29782e-04
+  Simulation 45% complete. Max time remaining: 1 hour, 18 mins. Auto Shutoff: 1.97707e-04
+  Simulation 46% complete. Max time remaining: 1 hour, 17 mins. Auto Shutoff: 1.72435e-04
+  Simulation 47% complete. Max time remaining: 1 hour, 15 mins. Auto Shutoff: 1.46188e-04
+  Simulation 48% complete. Max time remaining: 1 hour, 14 mins. Auto Shutoff: 1.28167e-04
+  Simulation 49% complete. Max time remaining: 1 hour, 12 mins. Auto Shutoff: 1.07470e-04
+  Simulation 50% complete. Max time remaining: 1 hour, 11 mins. Auto Shutoff: 9.36658e-05
+  Simulation 51% complete. Max time remaining: 1 hour, 10 mins. Auto Shutoff: 7.91521e-05
+  Simulation 52% complete. Max time remaining: 1 hour, 8 mins. Auto Shutoff: 6.84351e-05
+  Simulation 53% complete. Max time remaining: 1 hour, 7 mins. Auto Shutoff: 5.89170e-05
+  Simulation 54% complete. Max time remaining: 1 hour, 5 mins. Auto Shutoff: 5.09338e-05
+  Simulation 55% complete. Max time remaining: 1 hour, 4 mins. Auto Shutoff: 4.46618e-05
+  Simulation 56% complete. Max time remaining: 1 hour, 2 mins. Auto Shutoff: 3.90864e-05
+  Simulation 57% complete. Max time remaining: 1 hour, 1 min. Auto Shutoff: 3.46505e-05
+  Simulation 58% complete. Max time remaining: 1 hour, 0 min. Auto Shutoff: 3.07276e-05
+  Simulation 59% complete. Max time remaining: 58 mins, 37 secs. Auto Shutoff: 2.73541e-05
+  Simulation 60% complete. Max time remaining: 57 mins, 11 secs. Auto Shutoff: 2.44291e-05
+  Simulation 61% complete. Max time remaining: 55 mins, 45 secs. Auto Shutoff: 2.17843e-05
+  Simulation 62% complete. Max time remaining: 54 mins, 20 secs. Auto Shutoff: 1.94001e-05
+  Simulation 63% complete. Max time remaining: 52 mins, 54 secs. Auto Shutoff: 1.73741e-05
+  Simulation 64% complete. Max time remaining: 51 mins, 29 secs. Auto Shutoff: 1.53509e-05
+  Simulation 65% complete. Max time remaining: 50 mins, 3 secs. Auto Shutoff: 1.37973e-05
+  Simulation 66% complete. Max time remaining: 48 mins, 37 secs. Auto Shutoff: 1.21572e-05
+  Simulation 67% complete. Max time remaining: 47 mins, 11 secs. Auto Shutoff: 1.09350e-05
+  Simulation 68% complete. Max time remaining: 45 mins, 45 secs. Auto Shutoff: 9.69774e-06
+  Simulation 69% complete. Max time remaining: 44 mins, 20 secs. Auto Shutoff: 8.69111e-06
+  Simulation 70% complete. Max time remaining: 42 mins, 54 secs. Auto Shutoff: 7.83542e-06
+  Simulation 71% complete. Max time remaining: 41 mins, 28 secs. Auto Shutoff: 6.97854e-06
+  Simulation 72% complete. Max time remaining: 40 mins, 3 secs. Auto Shutoff: 6.39813e-06
+  Simulation 73% complete. Max time remaining: 38 mins, 37 secs. Auto Shutoff: 5.68835e-06
+  Simulation 74% complete. Max time remaining: 37 mins, 11 secs. Auto Shutoff: 5.24749e-06
+  Simulation 75% complete. Max time remaining: 35 mins, 45 secs. Auto Shutoff: 4.69864e-06
+  Simulation 76% complete. Max time remaining: 34 mins, 20 secs. Auto Shutoff: 4.30441e-06
+  Simulation 77% complete. Max time remaining: 32 mins, 54 secs. Auto Shutoff: 3.90313e-06
+  Simulation 78% complete. Max time remaining: 31 mins, 28 secs. Auto Shutoff: 3.52315e-06
+  Simulation 79% complete. Max time remaining: 30 mins, 2 secs. Auto Shutoff: 3.23924e-06
+  Simulation 80% complete. Max time remaining: 28 mins, 36 secs. Auto Shutoff: 2.88654e-06
+  Simulation 81% complete. Max time remaining: 27 mins, 10 secs. Auto Shutoff: 2.66987e-06
+  Simulation 82% complete. Max time remaining: 25 mins, 45 secs. Auto Shutoff: 2.37668e-06
+  Simulation 83% complete. Max time remaining: 24 mins, 19 secs. Auto Shutoff: 2.18884e-06
+  Simulation 84% complete. Max time remaining: 22 mins, 53 secs. Auto Shutoff: 1.96952e-06
+  Simulation 85% complete. Max time remaining: 21 mins, 27 secs. Auto Shutoff: 1.79291e-06
+  Simulation 86% complete. Max time remaining: 20 mins, 2 secs. Auto Shutoff: 1.64275e-06
+  Simulation 87% complete. Max time remaining: 18 mins, 36 secs. Auto Shutoff: 1.47687e-06
+  Simulation 88% complete. Max time remaining: 17 mins, 10 secs. Auto Shutoff: 1.37292e-06
+  Simulation 89% complete. Max time remaining: 15 mins, 44 secs. Auto Shutoff: 1.22938e-06
+  Simulation 90% complete. Max time remaining: 14 mins, 18 secs. Auto Shutoff: 1.14526e-06
+  Simulation 91% complete. Max time remaining: 12 mins, 53 secs. Auto Shutoff: 1.03301e-06
+  Simulation 92% complete. Max time remaining: 11 mins, 27 secs. Auto Shutoff: 9.53311e-07
+  Simulation 93% complete. Max time remaining: 10 mins, 1 sec. Auto Shutoff: 8.71033e-07
+  Simulation 94% complete. Max time remaining: 8 mins, 36 secs. Auto Shutoff: 7.92645e-07
+  Simulation 95% complete. Max time remaining: 7 mins, 10 secs. Auto Shutoff: 7.33188e-07
+  Simulation 96% complete. Max time remaining: 5 mins, 44 secs. Auto Shutoff: 6.60298e-07
+  Simulation 97% complete. Max time remaining: 4 mins, 18 secs. Auto Shutoff: 6.13448e-07
+  Simulation 98% complete. Max time remaining: 2 mins, 52 secs. Auto Shutoff: 5.52395e-07
+  Simulation 99% complete. Max time remaining: 1 min, 27 secs. Auto Shutoff: 5.10887e-07
+  Simulation 100% complete. Max time remaining: <1 sec. Auto Shutoff: 4.64075e-07
+Timestepping finished ...
+Starting post-processing of monitor data ...
+Post-processing of monitor data finished ...
+CPU walltime: 8674.24 seconds
+Simulation completed successfully at: Tue Nov 28 17:40:41 2023
+  + time to run simulation: 8674s
+  + time to finalize and save data: 4s

@@ -1,0 +1,25 @@
+switchtolayout;
+select('monolayer');
+set('enabled',false);
+run;
+a = getresult('RCWA','total_energy');
+lambda = a.lambda;
+energy = 1e-9*1239.847/lambda;
+cwl = mean(lambda)*1e6;
+select('');
+period = get('period')*1e6;
+ky = 2*pi*(sin(pi*a.theta/180)/cwl);
+image(ky, energy, transpose(a.Rp), 'kx (1/um)', 'E (eV)', 'No Monolayer');
+#matlabsave("no_monolayer", ky, energy, lambda,  transpose(a.Rp), a);
+
+switchtolayout;
+select('monolayer');
+set('enabled',true);
+run;
+a = getresult('RCWA','total_energy');
+lambda = a.lambda;
+energy = 1e-9*1239.847/lambda;
+cwl = mean(lambda)*1e6;
+ky = 2*pi*(sin(pi*a.theta/180)/cwl);
+image(ky, energy, transpose(a.Rp), 'kx (1/um)', 'E (eV)', 'With Monolayer');
+#matlabsave("with_monolayer", ky, energy, lambda,  transpose(a.Rp), a);

@@ -1,0 +1,87 @@
+FDTD Solutions Version 8.21.1809 (Windows 64bit)
+ expires (month/day/year): 12/31/2019
+using config file: C:/Users/User/AppData/Roaming/Lumerical/FDTD Solutions.ini
+license host: <a href=http://132.64.56.90:8095>132.64.56.90:8095</a>
+current time: Sun Dec 01 10:34:02 2019
+Running on host: RapaportGroup_HBT
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: C:\Program Files\Lumerical\FDTD\bin\fdtd-engine-msmpi.exe -t 1 -remote C:/Users/User/Google Drive/Single Photon  Project/Codes/Bullseye_Simulations/Plasmonic Patch Antenna/Patch_pt.fsp
+number of processors is 4
+processors are distributed as: 1x1x4
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 71 x 71 x 87
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.234375 seconds of CPU time
+16 16
+Starting meshing
+Simulation size in gridpoints: 71 x 71 x 87
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.203125 seconds of CPU time
+16 16
+Starting meshing
+Simulation size in gridpoints: 71 x 71 x 87
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.171875 seconds of CPU time
+16 16
+finished material properties
+Meshing Time: 0.429662 seconds, Init Electrical Material Time: 0.0408402 seconds, Init Magnetic Material Time: 0.0030556
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D point source
+Starting to add boundary conditions to simulation
+Adding 3D Symmetric BC
+Adding 3D PML BC
+Adding 3D Symmetric BC
+Adding 3D PML BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding analysis monitor
+Adding analysis monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Monitor ::model::QE::structure::x1 is outside the simulation and will not record any data
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Monitor ::model::QE::structure::y1 is outside the simulation and will not record any data
+Adding 3D DFT monitor
+Adding analysis monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D index monitor
+Adding 3D index monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 764585 total iterations
+0% complete. Max time remaining: 3 hrs, 50 mins, 52 secs. Auto Shutoff: 1
+1% complete. Max time remaining: 3 hrs, 39 mins, 48 secs. Auto Shutoff: 1
+2% complete. Max time remaining: 3 hrs, 34 mins, 46 secs. Auto Shutoff: 1
+100% complete. Max time remaining: 0 mins, 0 secs. Auto Shutoff: 9.25324e-006
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 22148 iterations, or 2.896736e-014s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+Monitor ::model::QE::structure::x1 is outside the simulation and will not record any data
+Monitor ::model::QE::structure::y1 is outside the simulation and will not record any data
+    collecting source data
+Finished collecting data
+Simulation completed successfully at: Sun Dec 01 10:40:21 2019
+Overall wall time measurements in seconds:
+    time to mesh and initialize: 1
+    time to run FDTD simulation: 378
+    time to finalize data and save to files: 0
+    FDTD solver speed: 25.6968 Mnodes/s
+    total FDTD solver speed on 4 processes: 102.787 Mnodes/s

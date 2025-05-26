@@ -1,0 +1,15 @@
+ cwnorm;
+ f=getresult("f_det::z_up","f");
+ theta=linspace(-90,90,360);
+ E2sph=matrix(length(theta),length(f));
+ 
+ for(x=1:length(f)){
+ E2=farfield3d("f_det::z_up",x);
+ ux=farfieldux("f_det::z_up",x);
+ uy=farfielduy("f_det::z_up",x);
+ Etemp=farfieldspherical(E2,ux,uy,theta,90);
+ E2sph(1:length(theta),x)=Etemp;
+ 
+ }
+
+ matlabsave("dispersion",E2sph,theta,f);
